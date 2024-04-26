@@ -312,3 +312,17 @@ article section#box-icon .profile span img {
     font-size: 18px;
     font-weight: 700;
 }
+
+
+
+
+/* =============== RESPONSIVE DESKTOP =============== */
+@media (min-width: 613px){
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    article {
+        width: 613px;
+    }
+}
