@@ -1,0 +1,314 @@
+:root {
+    --backgroundPrimary: #000;
+    --backgroundSecondary: #D9D9D9;
+    --colorPrimary: #fff;
+    --colorSecondary: #ABABAB;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: var(--colorPrimary);
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* =============== GLOBAL =============== */
+body {
+    background-color: var(--backgroundPrimary);
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* =============== HOME =============== */
+/* BANNER */
+.banner-image {
+    height: 302px;
+}
+
+/* PROFILE */
+article section#profile {
+    margin-top: -100px;
+    background-color: #0000;
+    margin-bottom: 2em;
+}
+article section#profile .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article section#profile .profile img {
+    height: 120px;
+    border: solid 3px var(--colorPrimary);
+    border-radius: 100px;
+}
+
+/* SOCIAL */
+#social {
+    padding: 1em 0;
+}
+#social ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#social ul li {
+    margin: 0 1em;
+    border-radius: 10px;
+}
+#social ul li a {
+    padding: 7px 0px;
+}
+#social ul li a img {
+    height: 35px;
+}
+#social ul li:nth-child(1) a img {
+    height: 38px;
+}
+#social ul li:nth-child(2) a img {
+    height: 45px;
+}
+
+/* INFO */
+article section#info {
+    padding: 1em 0;
+    width: 100%;
+}
+article section#info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3em;
+}
+article section#info ul li {
+    display: flex;
+    margin-bottom: 1em;
+}
+article section#info ul li a {
+    font-size: 18px;
+    padding: 1em;
+    border: solid 2px var(--colorPrimary);
+    text-align: center;
+    border-radius: 30px;
+    font-weight: 600;
+}
+/* =============== EVALUATION =============== */
+/* doubts */
+#doubts {
+    padding: 1em 54px;
+}
+#doubts ul {
+    display: flex;
+}
+#doubts ul li {
+    padding-bottom: 2em;
+}
+#doubts ul li .content p {
+    font-size: 12px;
+    color: var(--colorSecondary);
+}
+#doubts ul li h2 {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0 3px 0;
+}
+#doubts ul li .line, #doubts ul li .no-line {
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#doubts ul li .line::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background-color: var(--colorPrimary);
+    height: calc(100% + 15px);
+    margin-top: 20px;
+}
+#doubts ul li .line span, #doubts ul li .no-line span{
+    background-color: var(--colorPrimary);
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+    border-radius: 100px;
+}
+#doubts ul li .line span img, #doubts ul li .no-line span img{
+    height: 15px;
+}
+
+
+/* box-icon */
+article section#box-icon {
+    margin-top: -100px;
+    background-color: #0000;
+    margin-bottom: 2em;
+}
+article section#box-icon .profile {
+    display: flex;
+    justify-content: center;
+}
+article section#box-icon .profile span {
+    border: solid 3px var(--colorPrimary);
+    border-radius: 100px;
+    padding: 1.8em;
+}
+article section#box-icon .profile span img {
+    height: 40px;
+    margin-left: 7px;
+}
+
+
+/* avaluations */
+#avaluations {
+    display: flex;
+}
+#avaluations ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+#avaluations ul li {
+    border: solid 1px var(--colorPrimary);
+    border-radius: 10px;
+    margin-bottom: 1em;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+#avaluations ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avaluations ul li img {
+    height: 80px;
+    width: 80px;
+    border: solid 2px var(--colorPrimary);
+    border-radius: 100px;
+    margin-top: -60px;
+    background-color: var(--backgroundPrimary);
+    filter: grayscale(90%);
+}
+#avaluations ul li h2 {
+    font-size: 18px;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 400;
+}
+#avaluations ul li p {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* diary btn */
+#diary a {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 100px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+
+
+/* investment */
+#investment {
+    display: flex;
+    padding: 0 1.5em;
+    margin-bottom: 4em;
+}
+#investment .box {
+    border: solid 1px var(--colorPrimary);
+    padding: 2.5em;
+    border-radius: 30px;
+}
+#investment .box #title-invest {
+    padding-bottom: 1.5em;
+}
+#investment .box ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#investment .box ul li {
+    display: flex;
+    margin-bottom: 2em;
+}
+#investment .box ul li .icon {
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#investment .box ul li .icon span{
+    background-color: var(--colorPrimary);
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+    border-radius: 100px;
+}
+#investment .box ul li .icon img{
+    height: 13px;
+}
+#investment .box ul li .content {
+    font-size: 13px;
+}
+
+#investment .box #value_big{
+    font-size: 48px;
+    padding: 1em 0px 0px 0px;
+}
+#investment .box .box-btn-action {
+    width: 100%;
+    margin-top: 2em;
+}
+#investment .box .box-btn-action .btn-opc {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 100px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+
+/* social-bottom */
+#social-bottom .main {
+    background-color: var(--backgroundSecondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+#social-bottom .main .box-logo {
+    margin-top: -30px;
+}
+#social-bottom .main .box-logo img {
+    height: 61px;
+    border: solid 2px var(--colorPrimary);
+    border-radius: 100px;
+}
+
+
+/* =============== PLANS =============== */
+#btns {
+    padding: 0 1.5em;
+}
+#btns a {
+    font-size: 18px;
+    font-weight: 700;
+}
