@@ -29,6 +29,8 @@ a {
 /* BANNER */
 .banner-image {
     height: 302px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* PROFILE */
