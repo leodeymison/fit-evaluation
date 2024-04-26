@@ -16,6 +16,7 @@
 /* =============== GLOBAL =============== */
 body {
     background-color: var(--backgroundPrimary);
+    overflow-x: hidden;
 }
 li {
     list-style-type: none;
