@@ -198,7 +198,7 @@ article section#box-icon .profile span img {
     border-radius: 100px;
     margin-top: -60px;
     background-color: var(--backgroundPrimary);
-    filter: grayscale(90%);
+    /* filter: grayscale(90%); */
 }
 #avaluations ul li h2 {
     font-size: 18px;
@@ -229,6 +229,7 @@ article section#box-icon .profile span img {
     display: flex;
     padding: 0 1.5em;
     margin-bottom: 4em;
+    justify-content: center;
 }
 #investment .box {
     border: solid 1px var(--colorPrimary);
