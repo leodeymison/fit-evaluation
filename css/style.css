@@ -69,12 +69,12 @@ article section#profile .profile img {
 #social ul li a img {
     height: 35px;
 }
-#social ul li:nth-child(1) a img {
+#social ul li a img {
     height: 38px;
 }
-#social ul li:nth-child(2) a img {
+/* #social ul li:nth-child(2) a img {
     height: 45px;
-}
+} */
 
 /* INFO */
 article section#info {
